@@ -4,3 +4,166 @@ Switched to a new branch 'gitbranch'
 
 admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
 $ echo "">Aleksandrs_Jakovecs
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ echo "">Git-log-found.txt
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ git log
+commit 54257f3d7c4d0bf42b91ec1aaa50985d41d555df (HEAD -> gitbranch, origin/gitbranch)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:43:22 2017 +0200
+
+commit 54257f3d7c4d0bf42b91ec1aaa50985d41d555df (HEAD -> gitbranch, origin/gitbranch)
+    Tresais uzdevums
+
+commit 37ffb87571247a3c0c94630d584ad6f7ff970720 (origin/master, origin/HEAD, master)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:13:43 2017 +0200
+
+    Otrais uzdevums
+
+commit d071a4eacdc53504e2ea1234ef12c8715fe750b2
+Author: zemzale <alberts98@inbox.lv>
+Date:   Wed Nov 22 10:27:49 2017 +0200
+
+    Update README.md
+
+commit 12cb07233453680ab7d89c9aa7c64515db3f2e90
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:57:41 2017 +0200
+
+    Fixed the README.md
+
+commit 51ca92a3e8e8291d578e28586f5036d29fd947ea
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:56:30 2017 +0200
+
+    Updated README.md
+
+:
+
+^C
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ git log --branches
+commit 54257f3d7c4d0bf42b91ec1aaa50985d41d555df (HEAD -> gitbranch, origin/gitbranch)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:43:22 2017 +0200
+
+    Tresais uzdevums
+
+commit 37ffb87571247a3c0c94630d584ad6f7ff970720 (origin/master, origin/HEAD, master)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:13:43 2017 +0200
+
+    Otrais uzdevums
+
+commit d071a4eacdc53504e2ea1234ef12c8715fe750b2
+Author: zemzale <alberts98@inbox.lv>
+Date:   Wed Nov 22 10:27:49 2017 +0200
+
+    Update README.md
+
+commit 12cb07233453680ab7d89c9aa7c64515db3f2e90
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:57:41 2017 +0200
+
+    Fixed the README.md
+
+commit 51ca92a3e8e8291d578e28586f5036d29fd947ea
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:56:30 2017 +0200
+
+    Updated README.md
+:
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+it log --abbrev-commit
+bash: it: command not found
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ git log --abbrev-commit
+commit 54257f3 (HEAD -> gitbranch, origin/gitbranch)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:43:22 2017 +0200
+
+    Tresais uzdevums
+
+commit 37ffb87 (origin/master, origin/HEAD, master)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:13:43 2017 +0200
+
+    Otrais uzdevums
+
+commit d071a4e
+Author: zemzale <alberts98@inbox.lv>
+Date:   Wed Nov 22 10:27:49 2017 +0200
+
+    Update README.md
+
+commit 12cb072
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:57:41 2017 +0200
+
+    Fixed the README.md
+
+commit 51ca92a
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:56:30 2017 +0200
+
+    Updated README.md
+:
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+vi Git-log-found.txt
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ ^C
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ vi Git-log-found.txt
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ git log --abbrev-commit
+commit 54257f3 (HEAD -> gitbranch, origin/gitbranch)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:43:22 2017 +0200
+
+    Tresais uzdevums
+
+commit 37ffb87 (origin/master, origin/HEAD, master)
+Author: Aleksandrs Jakovecs <alexjakovec@gmail.com>
+Date:   Sat Dec 2 16:13:43 2017 +0200
+
+    Otrais uzdevums
+
+commit d071a4e
+Author: zemzale <alberts98@inbox.lv>
+Date:   Wed Nov 22 10:27:49 2017 +0200
+
+    Update README.md
+
+commit 12cb072
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:57:41 2017 +0200
+
+    Fixed the README.md
+
+commit 51ca92a
+Author: Alberts Zemzale <alberts98@inbox.lv>
+Date:   Mon Nov 20 21:56:30 2017 +0200
+
+    Updated README.md
+:
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+vi Git-log-found.txt
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ git add Git-log-found.txt
+warning: LF will be replaced by CRLF in Git-log-found.txt.
+The file will have its original line endings in your working directory.
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ vi Aleksandrs_Jakovecs

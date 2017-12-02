@@ -1,0 +1,5 @@
+Datums : <20-11-2017> (Mon Nov 20 21:56:30 2017 +0200)
+Branch : (origin/master, origin/HEAD, master)
+Commit description: Adding the first files
+Long checksum : 51ca92a3e8e8291d578e28586f5036d29fd947ea
+Short checksum :  51ca92a
