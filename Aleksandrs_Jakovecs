@@ -9,3 +9,29 @@ upstream        https://github.com/Visioneery/school-task/tree/home-task (push)
 admin@DESKTOP-QRTUNL0 MINGW64 /school-task (master)
 $ echo "">Aleksandrs_Jakovecs
 
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (master)
+$ ls -la
+total 18
+drwxr-xr-x 1 admin 197121    0 дек  2 17:05 ./
+drwxr-xr-x 1 admin 197121    0 дек  2 15:52 ../
+drwxr-xr-x 1 admin 197121    0 дек  2 17:05 .git/
+-rw-r--r-- 1 admin 197121  556 дек  2 17:05 Aleksandrs_Jakovecs
+-rw-r--r-- 1 admin 197121 1040 дек  2 15:52 README.md
+-rwxr-xr-x 1 admin 197121  121 дек  2 15:52 script.sh*
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (master)
+$ git blame script.sh
+^81be022 (Alberts Zemzale 2017-11-20 21:32:04 +0200 1) #!/bin/sh
+^81be022 (Alberts Zemzale 2017-11-20 21:32:04 +0200 2)
+^81be022 (Alberts Zemzale 2017-11-20 21:32:04 +0200 3) echo "This is a script that could"
+^81be022 (Alberts Zemzale 2017-11-20 21:32:04 +0200 4) echo "We are going to work with it to make our git dr         eams come true"
+^81be022 (Alberts Zemzale 2017-11-20 21:32:04 +0200 5)
+
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (master)
+$ vi script.sh
+
