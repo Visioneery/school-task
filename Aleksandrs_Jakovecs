@@ -1,11 +1,6 @@
-$ git remote add upstream https://github.com/Visioneery/school-task/tree/home-task                          
-admin@DESKTOP-QRTUNL0 MINGW64 /school-task (master)
-$ git remote -v
-origin  https://github.com/Visioneery/school-task.git (fetch)
-origin  https://github.com/Visioneery/school-task.git (push)
-upstream        https://github.com/Visioneery/school-task/tree/home-task (fetch)
-upstream        https://github.com/Visioneery/school-task/tree/home-task (push)
+[200~admin@DESKTOP-QRTUNL0 MINGW64 /school-task (master)
+$ git checkout -b gitbranch
+Switched to a new branch 'gitbranch'
 
-admin@DESKTOP-QRTUNL0 MINGW64 /school-task (master)
+admin@DESKTOP-QRTUNL0 MINGW64 /school-task (gitbranch)
 $ echo "">Aleksandrs_Jakovecs
-
